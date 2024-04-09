@@ -10,6 +10,7 @@ import HomeComp from "./components/HomeComp";
 import ContactoModal from "./components/ContactoModal";
 import AboutSection from "./components/AboutSection";
 import PortfolioSection from "./components/PortfolioSection";
+import FooterSection from "./components/FooterSection";
 
 const App = () => {
 
@@ -30,6 +31,7 @@ const App = () => {
         </section>
         <ContactoModal />
       </main>
+      <FooterSection />
     </>
   )
 }

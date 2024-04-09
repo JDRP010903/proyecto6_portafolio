@@ -1,0 +1,32 @@
+:root {
+    --color1: #edf2f4;
+    --color2: #8d99ae;
+    --color3: #2b2d42;
+    --color2-hover: #768896;
+    --color3-hover: #24283b;
+}
+
+footer {
+    background-color: var(--color2) !important;
+    color: var(--color1) !important;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .bx {
+    color: var(--color3) !important;
+    transition: color 0.3s ease !important;
+}
+
+footer .bx:hover {
+    color: var(--colorHover) !important;
+}
+
+footer .bx-cssSize {
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
