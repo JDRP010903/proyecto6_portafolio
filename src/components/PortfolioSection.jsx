@@ -50,7 +50,7 @@ const PortfolioSection = () => {
             descripcion: 'Este proyecto está enfocado en construir un portafolio donde se muestran todos mis proyectos',
             tecnologias: ["HTML", "CSS", "JavaScript", "React"],
             imagen: proyecto6,
-            demoUrl: "https://6614ceeade6f266548be1af6--dazzling-dieffenbachia-6061ea.netlify.app/",
+            demoUrl: "https://dazzling-dieffenbachia-6061ea.netlify.app/",
         }
 
     ];
