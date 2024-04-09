@@ -1,0 +1,39 @@
+:root {
+    --color1: #edf2f4;
+    --color2: #8d99ae;
+    --color3: #2b2d42;
+    --color2-hover: #768896;
+    --color3-hover: #24283b;
+}
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color3);
+    background: linear-gradient(120deg, var(--color2), var(--color1), var(--color2));
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.sectionBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloHomeSection {
+    font-weight: 500 !important;
+}
+
+.subtituloHomeSection {
+    font-weight: 600 !important;
+}
+
+.parrafoHomeSection {
+    font-weight: 400 !important;
+}

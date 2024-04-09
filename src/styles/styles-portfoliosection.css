@@ -1,0 +1,45 @@
+:root {
+    --color1: #edf2f4;
+    --color2: #8d99ae;
+    --color3: #2b2d42;
+    --color2-hover: #768896;
+    --color3-hover: #24283b;
+}
+
+.portfolioSection .portfolio-title {
+    color: var(--color3);
+}
+
+.portfolioSection .portfolio-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.portfolioSection .portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.portfolioSection .portfolio-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolioSection .portfolio-project-title {
+    color: var(--color3);
+}
+
+.portfolioSection .portfolio-project-description {
+    color: var(--color2);
+}
+
+.portfolioSection .portfolio-btn {
+    border: none;
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+.portfolioSection .portfolio-btn:hover {
+    background-color: var(--color3-hover);
+}
+
+

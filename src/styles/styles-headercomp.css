@@ -1,0 +1,40 @@
+:root {
+    --color1: #edf2f4;
+    --color2: #8d99ae;
+    --color3: #2b2d42;
+    --color2-hover: #768896;
+    --color3-hover: #24283b;
+}
+
+.navList{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.nav-link {
+    color: var(--color1);
+    background-color: transparent;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--color3);
+    background-color: var(--color1);
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+@media (min-width: 1025px) {
+    .navList {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,40 @@
+:root {
+    --color1: #edf2f4;
+    --color2: #8d99ae;
+    --color3: #2b2d42;
+    --color2-hover: #768896;
+    --color3-hover: #24283b;
+}
+
+body {
+    background-color: var(--color1);
+    color: var(--color3) !important;
+}
+
+header {
+    background-color: var(--color3);
+}
+
+.btn-custom {
+    color: var(--color3) !important;
+    background-color: var(--color2);
+    border: none;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.btn-custom:hover {
+    color: var(--color1) !important;
+    background-color: var(--color2-hover);
+}
+
+.btn-custom2 {
+    color: var(--color2) !important;
+    background-color: var(--color3);
+    border: none;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.btn-custom2:hover {
+    color: var(--color1) !important;
+    background-color: var(--color3-hover);
+}
